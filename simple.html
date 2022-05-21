@@ -2,20 +2,22 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
 <title>Chatアプリ</title>
 </head>
 <body>
 
 <!-- コンテンツ表示画面 -->
-<div>   
-    名前: <input type="text" id="uname">
-</div>
-<div>
-    <textarea name="" id="text" cols="30" rows="10"></textarea>
-    <button id="send">送信</button>
-</div>
-<div id="output">
-
+<div class="container">
+    <div class="name_area">   
+        名前: <input type="text" id="uname">
+    </div>
+    <div class="messaage_area">
+        <textarea name="" id="text" cols="30" rows="10"></textarea>
+        <button id="send">送信</button>
+    </div>
+    <div id="output"></div>
 </div>
 
 
